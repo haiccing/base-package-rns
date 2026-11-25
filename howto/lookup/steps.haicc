@@ -1,5 +1,9 @@
 # lookup: who is in a swarm, who is active, where a node lives.
-# The scene: the swarm package's how-to swarm, at its end.
+# scene: the swarm package's how-to swarm, at its end: a host in service, its swarm, two nodes registered
+. boot/deploy host haiccing/base-component-haicc
+host swarm/create swarms/swarm-1
+host swarm/deploy swarms/swarm-1/node-1
+host swarm/deploy swarms/swarm-1/node-2
 # step: who is registered and active, asked of a node
 host/swarms/swarm-1/node-1 rns/status
 # expect: "uri":"swarm-1/node-2","role":"node","state":"active"

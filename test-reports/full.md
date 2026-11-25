@@ -1,6 +1,6 @@
 # Test report: haiccing/base-package-rns
 
-The package passed its `full` set: all 16 units, 127 of 127 tests and 863 of 863 asserts.
+The package passed its `full` set: all 16 units, 128 of 128 tests and 870 of 870 asserts.
 
 | | |
 |---|---|
@@ -8,11 +8,11 @@ The package passed its `full` set: all 16 units, 127 of 127 tests and 863 of 863
 | Set | `full` |
 | Result | passed |
 | Units | 16 of 16 passed |
-| Tests | 127 of 127 passed |
-| Asserts | 863 of 863 passed |
-| Run | 2026-11-25 00:27 UTC |
+| Tests | 128 of 128 passed |
+| Asserts | 870 of 870 passed |
+| Run | 2026-11-25 08:59 UTC |
 | Bare | v1.36.0 |
-| Content | `0429d861b9c74b5ccc3f7d319e5eaa551c9315acb71eeb1bb7d539199350fd98` |
+| Content | `f5c216c00d6a5cecde46667a1906e1c549675334ba623f5d3c0459f75f88ac5e` |
 
 ## Units
 
@@ -23,7 +23,7 @@ The package passed its `full` set: all 16 units, 127 of 127 tests and 863 of 863
 | `/test/code` | passed | 1 of 1 | 2 of 2 |
 | `/test/mrepo` | passed | 1 of 1 | 1 of 1 |
 | `/test/package` | passed | 1 of 1 | 1 of 1 |
-| `/test/modules/pear-full-square/mrepo-base-info` | passed | 10 of 10 | 86 of 86 |
+| `/test/modules/pear-full-square/mrepo-base-info` | passed | 11 of 11 | 92 of 92 |
 | `/test/modules/pear-full-square/mrepo-base-rns` | passed | 3 of 3 | 40 of 40 |
 | `/test/modules/pear-full-square/mycelium-container-document` | passed | 6 of 6 | 42 of 42 |
 | `/test/modules/pear-full-square/mycelium-uri` | passed | 22 of 22 | 217 of 217 |
@@ -33,6 +33,6 @@ The package passed its `full` set: all 16 units, 127 of 127 tests and 863 of 863
 | `/test/modules/pear-full-square/mycelium-xpath-physical` | passed | 12 of 12 | 91 of 91 |
 | `/test/modules/pear-full-square/p2p-hypercore` | passed | 4 of 4 | 16 of 16 |
 | `/test/modules/pear-full-square/p2p-process` | passed | 4 of 4 | 16 of 16 |
-| `/test/modules/pear-full-square/pkgm-base-check` | passed | 26 of 26 | 89 of 89 |
+| `/test/modules/pear-full-square/pkgm-base-check` | passed | 26 of 26 | 90 of 90 |
 
 Written by the package's pre-release from `full.json`, beside it. The content is the hash of the bundle that was tested, its test reports left out.
